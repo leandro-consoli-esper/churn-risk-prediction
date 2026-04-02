@@ -161,10 +161,8 @@ Given the dataset represents a credit card portfolio, customer value was estimat
 - Assumed annual interest rate: **~25%**
 - Estimated annual revenue: **~375**
 
----
-
-### 📈 Total estimated annual revenue per customer: > **~460 monetary units**
-### 📉 Observed churn rate: > **~16%**
+###  Total estimated annual revenue per customer: > **~460 monetary units**
+###  Observed churn rate: > **~16%**
 
 ---
 
@@ -174,7 +172,7 @@ LTV ≈ Annual Revenue / Churn Rate
 
 ---
 
-## 📈 Retention Impact
+### Retention Impact
 
 **Identified churners:**
 1,551 customers  
@@ -182,15 +180,13 @@ LTV ≈ Annual Revenue / Churn Rate
 **Successfully retained (15%):**
 1,551 × 15% ≈ **233 customers**
 
----
-
 ## 💰 Estimated Retained Value
 
 233 × 2,800 ≈ **~650,000 monetary units**
 
 ---
 
-## ⚠️ Conservative Assumptions
+### ⚠️ Conservative Assumptions
 
 This estimate intentionally:
 

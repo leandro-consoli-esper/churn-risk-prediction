@@ -137,23 +137,89 @@ These insights reinforce the model’s alignment with real customer behavior and
 
 ---
 
-# 💰 Estimated Business Impact
+# 💰 Estimated Business Impact: Conservative Retention Scenario
 
-Given the dataset characteristics:
+To estimate financial impact conservatively, we assume:
+
+- Only **15% of identified churners** are successfully retained  
+- Customer value is estimated based on realistic revenue drivers in a credit card portfolio  
+- No additional revenue from cross-sell, engagement uplift, or cost reduction is considered  
+
+---
+
+## 📊 Customer Value Estimation
+
+Given the dataset represents a credit card portfolio, customer value was estimated considering two primary revenue streams:
+
+### 1. Transaction-based revenue (interchange)
+- Average annual transaction volume: **~4,400 monetary units**
+- Assumed interchange rate: **~2%**
+- Estimated annual revenue: **~88**
+
+### 2. Interest on revolving balances
+- Average revolving balance (proxy): **~1,500 monetary units**
+- Assumed annual interest rate: **~25%**
+- Estimated annual revenue: **~375**
+
+---
+
+### 📈 Total estimated annual revenue per customer: > **~460 monetary units**
+### 📉 Observed churn rate: > **~16%**
+
+---
+
+### 📊 Estimated Customer Lifetime Value (LTV):
+LTV ≈ Annual Revenue / Churn Rate
+> **~2,800 monetary units per customer**
+
+---
+
+## 📈 Retention Impact
+
+**Identified churners:**
+1,551 customers  
+
+**Successfully retained (15%):**
+1,551 × 15% ≈ **233 customers**
+
+---
+
+## 💰 Estimated Retained Value
+
+233 × 2,800 ≈ **~650,000 monetary units**
+
+---
+
+## ⚠️ Conservative Assumptions
+
+This estimate intentionally:
+
+- Uses simplified assumptions for interchange and interest rates  
+- Approximates customer value without full revenue decomposition  
+- Excludes cross-sell, upsell, and behavioral uplift  
+- Does not account for operational cost reductions  
+
+Therefore, this should be interpreted as a **conservative and lower-bound estimate** of financial impact.
+
+---
+
+## 🚀 Strategic Implications
+
+Given:
 
 - ~10,127 customers  
-- Churn rate ≈ 16%
+- Churn rate ≈ 16%  
 
-With recall above **95%**, the model can identify the vast majority of potential churners.
+And a model recall above **95%**, the solution is capable of identifying the majority of at-risk customers.
 
-Even under conservative assumptions (partial retention success and median value proxy), the model has the potential to preserve **tens of millions in customer lifetime value** by enabling proactive retention strategies.
+Even under conservative assumptions, the model enables:
 
-Beyond direct revenue preservation, the model supports:
+- **Hundreds of thousands in preserved value**
+- Risk-based customer prioritization  
+- More efficient allocation of retention resources  
+- Integration with CRM-driven retention workflows  
 
-- Risk-based customer segmentation  
-- Prioritization of high-value accounts  
-- Efficient allocation of retention budgets  
-- Integration with CRM decision workflows  
+Beyond direct financial impact, this approach strengthens decision-making by aligning predictive modeling with real business value drivers.
 
 ---
 

@@ -20,9 +20,9 @@ Traditional rule-based approaches often fail to capture complex behavioral patte
 
 The primary objective of this project is to:
 
-- Predict the probability of customer churn using historical behavioral and transactional data  
-- Maximize recall for churners while maintaining controlled false positives  
-- Provide a risk scoring framework to support targeted retention actions  
+- Predict the probability of customer churn using historical transactional data  
+- Maximize recall for churners while maintaining controlled false positives
+- Provide a risk scoring framework to support targeted retention actions
 
 ---
 
@@ -46,7 +46,7 @@ Risk scoring model — outputs calibrated churn probabilities that can be used f
 # 📊 Dataset Overview
 
 - ~10,000 customers  
-- Churn rate ≈ 16%  
+- Churn rate ≈ 16% (unbalanced dataset)
 - Rich behavioral and financial attributes  
 - Multiple engagement and transaction features  
 
@@ -55,6 +55,7 @@ Risk scoring model — outputs calibrated churn probabilities that can be used f
 ---
 
 # ⚙️ Project Workflow
+This project development is built over the CRISP-DM framework.
 
 ## 1️⃣ Exploratory Data Analysis
 

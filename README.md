@@ -113,8 +113,7 @@ LightGBM was selected based on overall performance, stability, and interpretabil
 | Precision (Churn) | 0.8659 |
 | F2 Score | 0.9371 |
 
-The model demonstrates strong discriminative power while maintaining high recall, aligning with the business objective of minimizing missed churners.
-
+The model demonstrates strong discriminative power while maintaining high recall, aligning with the business objective of minimizing missed churners. Put simply, the model accurately classified 155 of 162 churners and 827 of 851 non-churners.
 ![LightGBM Consusion Matrix](images/light.png)
 
 ---
